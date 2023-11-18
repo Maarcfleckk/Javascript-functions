@@ -4,3 +4,9 @@
  * input: number (summand2)
  * output: boolean
  */
+
+const isAdditionGreaterThanFifty = function (summand1, summand2){
+    if (typeof value !== "number" || typeof threshold !== "number") {
+        console.log("Input must be a number");
+    }
+}
