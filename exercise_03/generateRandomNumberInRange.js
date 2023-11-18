@@ -9,7 +9,7 @@
  * @param {number} limit - The upper limit for the random number (exclusive).
  * @returns {number} - The generated random number.
  */
-function generateRandomNumberInRange(limit) {
+const  generateRandomNumberInRange = function (limit) {
   if (typeof limit !== "number") {
     console.log("Input must be a number");
   }

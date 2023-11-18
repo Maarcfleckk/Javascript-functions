@@ -11,7 +11,7 @@
  * @param {number} threshold 
  * @returns 
  */
-const isGreaterThan = function isGreaterThan(value, threshold){
+const isGreaterThan = function (value, threshold){
     if (typeof value !== "number" || typeof threshold !== "number") {
         console.log("Input must be a number");
     }

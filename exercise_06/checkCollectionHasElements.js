@@ -9,7 +9,7 @@
  * @param {array} collection - The input array (collection).
  * @returns {boolean} - Returns true if the collection is not empty, false if it's empty.
  */
-const checkCollectionHasElements = function checkCollectionHasElements(collection) {
+const checkCollectionHasElements = function (collection) {
     if (!Array.isArray(collection)) {
         console.log("Input must be an array");
     }
