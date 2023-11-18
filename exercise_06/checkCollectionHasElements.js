@@ -10,9 +10,9 @@
  * @returns {boolean} - Returns true if the collection is not empty, false if it's empty.
  */
 const checkCollectionHasElements = function (collection) {
-    if (!Array.isArray(collection)) {
-        console.log("Input must be an array");
-    }
-    return collection.length > 0;
+  if (!Array.isArray(collection)) {
+    console.log("Input must be an array");
+  }
+  return collection.length > 0;
 };
 export default checkCollectionHasElements;

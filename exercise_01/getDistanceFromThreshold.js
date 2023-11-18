@@ -12,13 +12,13 @@
  * @returns {number} - The distance from the threshold.
  */
 const getDistanceFromThreshold = function (base, threshold) {
-    if (base > threshold) {
-        return base - threshold;
-    }
-    if (base < threshold) {
-        return threshold - base;
-    }
-    return 0; // If base is equal to threshold
+  if (base > threshold) {
+    return base - threshold;
+  }
+  if (base < threshold) {
+    return threshold - base;
+  }
+  return 0; // If base is equal to threshold
 };
 
 export default getDistanceFromThreshold;
