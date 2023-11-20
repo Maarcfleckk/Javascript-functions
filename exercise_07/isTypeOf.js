@@ -18,7 +18,11 @@ const isTypeOf = function (valueToBeChecked, type) {
   if (type) {
     return Array.isArray(valueToBeChecked);
   } else {
-    return typeof valueToBeChecked === 'string' || typeof valueToBeChecked === 'number' || typeof valueToBeChecked === 'boolean';
+    return (
+      typeof valueToBeChecked === "string" ||
+      typeof valueToBeChecked === "number" ||
+      typeof valueToBeChecked === "boolean"
+    );
   }
 };
 

@@ -11,7 +11,7 @@
  */
 const checkCollectionHasElements = function (collection) {
   if (!Array.isArray(collection)) {
-    return"Input must be an array";
+    return "Input must be an array";
   }
   return collection.length > 0;
 };
