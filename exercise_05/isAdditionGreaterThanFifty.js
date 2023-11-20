@@ -13,7 +13,7 @@
  */
 const isAdditionGreaterThanFifty = function (summand1, summand2) {
   if (typeof summand1 !== "number" || typeof summand2 !== "number") {
-    console.log("Input must be a number");
+    return "Input must be a number";
   }
   return summand1 + summand2 > 50;
 };

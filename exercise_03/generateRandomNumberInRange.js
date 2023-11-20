@@ -11,7 +11,7 @@
  */
 const generateRandomNumberInRange = function (limit) {
   if (typeof limit !== "number") {
-    console.log("Input must be a number");
+    return "Input must be a number";
   }
 
   let randomNumber = Math.random() * limit;

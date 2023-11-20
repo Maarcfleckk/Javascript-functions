@@ -8,14 +8,18 @@
  */
 
 /**
-Checks if the type of a value matches the specified type.
-For arrays, it uses Array.isArray() to check.
-@param {string|number|boolean|Array} valueToBeChecked - The value to check the type of.
-@param {boolean} type - The expected type (true for array, false for other types).
-@returns {boolean} - True if the type matches, false otherwise.
-*/
+ * Checks if the type of a value matches the specified type.
+ * For arrays, it uses Array.isArray() to check.
+ * @param {string|number|boolean|Array} valueToBeChecked - The value to check the type of.
+ * @param {boolean} type - The expected type (true for array, false for other types).
+ * @returns {boolean} - True if the type matches, false otherwise.
+ */
 const isTypeOf = function (valueToBeChecked, type) {
-  if (type === Array.isArray() && Array.isArray(valueToBeChecked)) return true;
-  return type === typeof valueToBeChecked;
+  if (type) {
+    return Array.isArray(valueToBeChecked);
+  } else {
+    return typeof valueToBeChecked === 'string' || typeof valueToBeChecked === 'number' || typeof valueToBeChecked === 'boolean';
+  }
 };
+
 export default isTypeOf;

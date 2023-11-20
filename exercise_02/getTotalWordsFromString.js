@@ -11,7 +11,7 @@
  */
 const getTotalWordsFromString = function (sentence) {
   if (typeof sentence !== "string") {
-    console.log("It must be a String");
+    return "It must be a String";
   }
 
   let words = sentence.split(/\s+/);

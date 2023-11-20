@@ -13,7 +13,7 @@
  */
 const isGreaterThan = function (value, threshold) {
   if (typeof value !== "number" || typeof threshold !== "number") {
-    console.log("Input must be a number");
+    return "Input must be a number";
   }
   return value > threshold;
 };
