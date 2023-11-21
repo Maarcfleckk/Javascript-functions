@@ -15,8 +15,7 @@ const getTotalWordsFromString = function (sentence) {
   }
 
   let words = sentence.split(/\s+/);
-  let filteredWords = words.filter((word) => word.length > 0);
-  return filteredWords.length;
+  return word.length;
 };
 
 export default getTotalWordsFromString;
