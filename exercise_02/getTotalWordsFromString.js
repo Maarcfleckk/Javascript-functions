@@ -7,7 +7,7 @@
 /**
  * Calculates the total number of words in a given string.
  * @param {string} sentence - The input string (sentence).
- * @returns {number} - The total number of words in the sentence.
+ * @returns {number|string} - The total number of words in the sentence.
  */
 const getTotalWordsFromString = function (sentence) {
   if (typeof sentence !== "string") {

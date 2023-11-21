@@ -7,7 +7,7 @@
 /**
  * Checks whether a collection has elements by examining its length.
  * @param {array} collection - The input array (collection).
- * @returns {boolean || string} - Returns true if the collection is not empty, false if it's empty.
+ * @returns {boolean|string} - Returns true if the collection is not empty, false if it's empty.
  */
 const checkCollectionHasElements = function (collection) {
   if (!Array.isArray(collection)) {
