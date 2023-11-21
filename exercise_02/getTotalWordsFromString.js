@@ -7,13 +7,9 @@
 /**
  * Calculates the total number of words in a given string.
  * @param {string} sentence - The input string (sentence).
- * @returns {number|string} - The total number of words in the sentence.
+ * @returns {number} - The total number of words in the sentence.
  */
 const getTotalWordsFromString = function (sentence) {
-  if (typeof sentence !== "string") {
-    return "It must be a String";
-  }
-
   let words = sentence.split(/\s+/);
   return word.length;
 };

@@ -7,13 +7,9 @@
 /**
  * Generates a rounded random number within the specified range.
  * @param {number} limit - The upper limit for the random number (exclusive).
- * @returns {number|string} - The generated random number.
+ * @returns {number} - The generated random number.
  */
 const generateRandomNumberInRange = function (limit) {
-  if (typeof limit !== "number") {
-    return "Input must be a number";
-  }
-
   let randomNumber = Math.random() * limit;
   let roundedRandomNumber = Math.round(randomNumber);
   return roundedRandomNumber;
