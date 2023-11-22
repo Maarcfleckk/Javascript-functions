@@ -21,12 +21,12 @@ import checkCollectionHasElements from "../exercise_06/checkCollectionHasElement
 
 /**
  * Transforms a collection into a string.
- * @param {array} collection 
+ * @param {array} collection
  * @returns {string}
  */
-const transformCollectionToString = function(collection){
-   const hasElements = checkCollectionHasElements(collection);
+const transformCollectionToString = function (collection) {
+  const hasElements = checkCollectionHasElements(collection);
 
-   return hasElements ? collection.join(' '): '';
-}
+  return hasElements ? collection.join(" ") : "";
+};
 export default transformCollectionToString;
