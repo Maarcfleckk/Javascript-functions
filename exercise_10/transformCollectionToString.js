@@ -27,6 +27,6 @@ import checkCollectionHasElements from "../exercise_06/checkCollectionHasElement
 const transformCollectionToString = function (collection) {
   const hasElements = checkCollectionHasElements(collection);
 
-  return hasElements ? collection.join(" ") : "";
+  return hasElements ? collection.join(" | ") : "";
 };
 export default transformCollectionToString;
