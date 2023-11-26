@@ -26,6 +26,8 @@ import isGreaterThan from "../exercise_04/isGreaterThan.js";
  */
 const formatStringByWordsLength = function (sentence) {
   const totalWords = getTotalWordsFromString(sentence);
-  return isGreaterThan(totalWords, 5) ? sentence.toUpperCase() : sentence.toLowerCase();
+  return isGreaterThan(totalWords, 5)
+    ? sentence.toUpperCase()
+    : sentence.toLowerCase();
 };
 export default formatStringByWordsLength;
