@@ -11,7 +11,7 @@
  */
 const getTotalWordsFromString = function (sentence) {
   let words = sentence.split(/\s+/);
-  return word.length;
+  return words.length;
 };
 
 export default getTotalWordsFromString;
